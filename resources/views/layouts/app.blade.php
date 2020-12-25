@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -70,11 +70,18 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
+        <section  class="px-5">
+            <header class="container mx-auto">
+                <h3>Twitter</h3>
+            </header>
+        </section>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+        <section class="px-5">
+            <main class="container mx-auto">
+                @yield('content')
+            </main>
+        </section>
     </div>
 </body>
 </html>
