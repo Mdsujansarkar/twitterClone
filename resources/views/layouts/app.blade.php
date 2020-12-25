@@ -73,7 +73,9 @@
         </nav> --}}
         <section  class="px-5">
             <header class="container mx-auto">
-                <h3>Twitter</h3>
+                <h3>
+                    <img src="images/logo.svg" />
+                </h3>
             </header>
         </section>
 
